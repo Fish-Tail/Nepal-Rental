@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rent_bike"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.anuj.rentalnepal.RentBikeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#aaa"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:scaleType="fitXY"
+                android:src="@mipmap/bike_bsmotorbike" />
+
+            <LinearLayout
+                android:id="@+id/bsbikeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@drawable/text_bg_on_image">
+
+
+                <TextView
+                    style="@style/whiteTextStyle"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="B.S. Moterbike Shop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        style="@style/NormalTextStyle"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/ic_place_black_24dp" />
+
+                    <TextView
+                        style="@style/NormalTextStyle"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:text="Bhaisipati, Lalitpur" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#aaa"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/bike_honeyguide" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@drawable/text_bg_on_image">
+
+
+                <TextView
+                    style="@style/whiteTextStyle"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Honey Guide Ltd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        style="@style/NormalTextStyle"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/ic_place_black_24dp" />
+
+                    <TextView
+                        style="@style/NormalTextStyle"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:text="Baneshwor, Kathmandu" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#aaa"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/bike_bullet" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@drawable/text_bg_on_image">
+
+
+                <TextView
+                    style="@style/whiteTextStyle"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Bullet Bike Rent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        style="@style/NormalTextStyle"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/ic_place_black_24dp" />
+
+                    <TextView
+                        style="@style/NormalTextStyle"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:text="Pepsicola, Kathmandu" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#aaa"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/bike_detail4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="6dp"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@drawable/text_bg_on_image">
+
+
+                <TextView
+                    style="@style/whiteTextStyle"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Live life XL" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        style="@style/NormalTextStyle"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/ic_place_black_24dp" />
+
+                    <TextView
+                        style="@style/NormalTextStyle"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="10dp"
+                        android:text="Thimi, Bhaktapur" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

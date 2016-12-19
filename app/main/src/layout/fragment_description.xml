@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anuj.rentalnepal.Fragments.DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Following are the description added by the user:-"
+            />
+
+    <TextView
+        style="@style/BlackTextStyle"
+        android:id="@+id/descriptionTV"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the best house you can buy. It is the cheapest in the market. Just look at the pictures, isn't this house very beautiful." />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview1"
+            android:padding="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            />
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center|bottom">
+        <EditText
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:hint="Add Description"
+            android:id="@+id/addDescriptionET"
+            android:gravity="center_horizontal"/>
+
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Add"
+              android:id="@+id/addButton"/>
+      </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/contactNowButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#2bcc8a"
+            >
+
+            <ImageButton
+                android:background="@android:color/transparent"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_place_black_24dp"
+                />
+
+            <TextView
+                android:background="@android:color/transparent"
+
+style="@style/whiteTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Now" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

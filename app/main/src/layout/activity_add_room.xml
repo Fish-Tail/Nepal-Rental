@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_room"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.anuj.rentalnepal.AddRoomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Adding Your Room"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title" />
+
+            <EditText
+                android:id="@+id/room_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/underline_background"
+                android:maxLines="2"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description" />
+
+            <EditText
+                android:id="@+id/room_description"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/underline_background"
+                android:gravity="start"
+                 android:inputType="textMultiLine"
+
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facilities" />
+
+            <EditText
+                android:id="@+id/room_facilities"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/underline_background"
+                android:gravity="top"
+
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location" />
+
+            <EditText
+                android:id="@+id/room_location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/underline_background"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textMultiLine"
+                android:gravity="start"
+
+                android:padding="10dp"
+                android:maxLines="4"
+                android:singleLine="true" />
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Details" />
+
+            <EditText
+                android:id="@+id/room_contact"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/underline_background"
+               android:inputType="textMultiLine"
+                android:gravity="start"
+
+                android:padding="10dp"
+                android:maxLines="3"
+                android:singleLine="true" />
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point Map" />
+
+            <FrameLayout
+                android:id="@+id/mapcontainer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/underline_background"
+                >
+                <include
+                    layout="@layout/activity_maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </FrameLayout>
+
+            <TextView
+                style="@style/BlackTextStyleBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Browse Photos" />
+
+            <LinearLayout
+                android:id="@+id/uploadimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="#0255b9"
+                android:orientation="horizontal"
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    style="@style/whiteTextStyle"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Upload Images" />
+            </LinearLayout>
+            <ImageView
+                android:padding="5dp"
+                android:background="@drawable/underline_background"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageContainer"/>
+
+
+            <LinearLayout
+                android:id="@+id/rent_submitlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="#2bcc8a"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    style="@style/whiteTextStyle"
+                    android:id="@+id/submitroomButton"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Submit" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

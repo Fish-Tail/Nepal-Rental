@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rent_vehicle_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.anuj.rentalnepal.RentVehicleHomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="#3c18af"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/rentbikelayout"
+
+                >
+                <ImageButton
+                    android:background="@android:color/transparent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_motorcycle_black_24dp" />
+
+                <TextView
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent Moterbike"
+                    style="@style/whiteTextStyle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#05792c"
+
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/rentcarlayout"
+
+                >
+                <ImageButton
+                    android:background="@android:color/transparent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_directions_car_black_24dp" />
+
+                <TextView
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent Car/Taxi"
+                    style="@style/whiteTextStyle"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#b70540"
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageButton
+                    android:background="@android:color/transparent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_directions_bus_black_24dp" />
+
+                <TextView
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent Bus"
+                    style="@style/whiteTextStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#566405"
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+
+                >
+                <ImageButton
+                    android:background="@android:color/transparent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_directions_bike_black_24dp" />
+
+                <TextView
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent Cycle"
+                    style="@style/whiteTextStyle" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#730a83"
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageButton
+                    android:background="@android:color/transparent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_local_shipping_black_24dp" />
+
+                <TextView
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent Van/Truck"
+                    style="@style/whiteTextStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+
+                >
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#4d9ce1"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+
+            >
+            <ImageButton
+                android:background="@android:color/transparent"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_directions_bike_black_24dp" />
+
+            <TextView
+                android:background="@android:color/transparent"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rent Electronics"
+                style="@style/whiteTextStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
